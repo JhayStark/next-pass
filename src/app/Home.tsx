@@ -26,7 +26,7 @@ export default function HomePage() {
           alt='logo'
           className='mx-auto'
         />
-        <div className='text-center py-3 text-[#FFFFFFFA] text-3xl'>
+        <div className='text-center py-3 text-[#FFFFFFFA]'>
           <p>Enter passcode to</p>
           <p>download photos to your device</p>
         </div>
