@@ -34,7 +34,7 @@ export default function HomePage() {
         <input
           type='password'
           placeholder='****'
-          className='border-2 bg-inherit p-2 rounded-md w-[300px] mt-6 mx-auto'
+          className='border-2 bg-inherit p-2 rounded-md w-[300px] mt-6 mx-auto text-white'
           value={inputData}
           onChange={e => setInputData(e.target.value)}
         />
